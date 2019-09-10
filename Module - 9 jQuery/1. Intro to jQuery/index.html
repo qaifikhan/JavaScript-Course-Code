@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JS - Getting Styles</title>
+    <link rel="stylesheet" href="/index.css" type="text/css" >
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="/index.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="topbar">
+            <div>
+                <span class="menu-item">HOME</span>
+                <span class="menu-item">LOGIN</span>
+            </div>
+            
+            <p class="menu-item">Total Items: <span id="todo-count">0</span></p>
+        </nav>
+        <section>            
+            <input type="text" id="todo-input" placeholder="Enter tasks here..." />
+            <br>
+            <button id="add-item">Add List Item</button>
+            <button id="update-item">Update First Item</button>
+            <ul id="todo-list">
+            </ul>
+        </section>
+    </header>
+</body>
+</html>

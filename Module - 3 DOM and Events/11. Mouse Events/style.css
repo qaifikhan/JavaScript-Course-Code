@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+}
+
+main > div {
+  width: 100%;
+  background-color: lightsalmon;
+  padding: 24px;
+  margin: 16px;
+  font-size: 24px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#top-btn {
+  font-size: 24px;
+  padding: 12px 24px;
+  margin: 32px auto 16px;
+}
+
+main h3 {
+  background-color: lightblue;
+  margin: 0;
+  padding: 24px;
+}
+
+main p {
+  font-size: 48px;
+  font-weight: bold;
+  background-color: burlywood;
+  margin: 0;
+  margin-top: 16px;
+  padding: 24px;
+}

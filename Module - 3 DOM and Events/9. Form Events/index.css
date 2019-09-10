@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: lightblue;
+}
+
+#login-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 24px;
+    box-shadow: 0 2px 5px #ccc;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    font-size: 24px;
+    outline: none;
+}
